@@ -25,7 +25,7 @@ class SmartCalculator {
   }
 
   pow(number) {
-    this.equation = 'Math.pow(' +  this.equation + ', ' +number+')';
+    this.equation = this.equation+'**'+number.toString();
     return this;
   }
   valueOf(){
